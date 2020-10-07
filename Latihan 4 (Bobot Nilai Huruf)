@@ -1,0 +1,39 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+
+/**
+ *
+ * @author AchmdFSL
+ */
+import java.util.Scanner;
+public class Tes4 {
+public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+    int bil;
+    String huruf;
+    System.out.print("Masukan Huruf : ");       
+    huruf = input.next();
+    System.out.print(" ---------------------------------------------------\n"); 
+    System.out.print("|       Input Huruf       |     Hasil Konversi     |\n");
+    System.out.print(" ---------------------------------------------------\n");
+    System.out.print("|");
+    System.out.print("\t\t"+huruf);
+    switch (huruf){
+        case "A" :
+        System.out.print("\t  |\t       4           |\n"); break;
+        case "B" :
+        System.out.print("\t  |\t       3           |\n"); break;
+        case "C" :
+        System.out.print("\t  |\t       2           |\n"); break;
+        case "D" :
+        System.out.print("\t  |\t       1           |\n"); break;
+        case "E" :
+        System.out.print("\t  |\t       0           |\n"); break;
+        default :
+        System.out.print("\t   | Error!!!  |\n");}
+    System.out.print(" ---------------------------------------------------\n");
+    }
+    }
